@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>Square calculation</title>
+	</head>
+	<body>
+		<div>
+			<h1><a href="/">This page calculates the square of the input number </a></h1>
+		<div>
+		{% for input_ in input_s %}
+			<div>
+				<p>published: {{ input_.input_x }}</p>
+				<p>{{ input_.calc_square }}</p>
+			</div>
+		{% endfor %}
+	</body>
+</html>
